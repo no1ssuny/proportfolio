@@ -1,9 +1,9 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ImageSlider from '../components/ImageSlider';
-import GlassCard from '../components/GlassCard';
-import { Icons } from '../constants';
+import ImageSlider from '../components/ImageSlider.tsx';
+import GlassCard from '../components/GlassCard.tsx';
+import { Icons } from '../constants.tsx';
 
 const Home: React.FC = () => {
   return (
