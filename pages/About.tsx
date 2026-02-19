@@ -1,7 +1,7 @@
 
 import React from 'react';
-import GlassCard from '../components/GlassCard';
-import { CAREER_HISTORY } from '../constants';
+import GlassCard from '../components/GlassCard.tsx';
+import { CAREER_HISTORY } from '../constants.tsx';
 
 const About: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { HERO_SLIDES, Icons } from '../constants';
+import { HERO_SLIDES, Icons } from '../constants.tsx';
 
 const ImageSlider: React.FC = () => {
   const [current, setCurrent] = useState(0);

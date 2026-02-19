@@ -1,20 +1,20 @@
 
 import React from 'react';
-import { CareerItem, CurriculumItem, SlideItem } from './types';
+import { CareerItem, CurriculumItem, SlideItem } from './types.ts';
 
 export const HERO_SLIDES: SlideItem[] = [
   {
-    image: 'https://picsum.photos/id/1/1200/600',
+    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=1200',
     title: 'AI 교육 설계 및 운영',
     description: '최신 생성형 AI 기술을 활용한 교육 커리큘럼을 제안합니다.'
   },
   {
-    image: 'https://picsum.photos/id/2/1200/600',
+    image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=1200',
     title: '현장 중심 교사 연수',
     description: '전국 교원 대상 디지털 리터러시 및 SW 교육 전문성을 강화합니다.'
   },
   {
-    image: 'https://picsum.photos/id/3/1200/600',
+    image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1200',
     title: '프로젝트 기반 학습(PBL)',
     description: '이론을 넘어 실질적인 결과물을 도출하는 프로젝트를 리딩합니다.'
   }

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import GlassCard from '../components/GlassCard';
-import { CURRICULUM_DATA, Icons } from '../constants';
+import GlassCard from '../components/GlassCard.tsx';
+import { CURRICULUM_DATA, Icons } from '../constants.tsx';
 
 const Curriculum: React.FC = () => {
   const [filter, setFilter] = useState<'All' | 'Teacher' | 'Adult' | 'Corporate'>('All');
