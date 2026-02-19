@@ -1,0 +1,8 @@
+{
+  "name": "ProPortfoliX",
+  "description": "A high-end professional portfolio web application featuring glassmorphism UI, interactive career timelines, and an AI-powered curriculum assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
